@@ -1,0 +1,32 @@
+Notes :
+
+ISBN.cpp line 244
+ 	In the global function is isValid(char* str), their was an
+        addition in the algorthrim validation. 
+
+        If string[9] had value of X therefore it has to have remainder
+        value of 1, to be consider for validation. 
+
+Error Reports:
+	GCC COMPILER was decting memory stack decation. 
+	It is fixed and their is no memory problems, or 
+        bufferoverflows in the program. 
+
+        valgrind verified that their is no problems in the 
+	stack. 
+
+
+       	==3538== HEAP SUMMARY:
+	==3538==     in use at exit: 0 bytes in 0 blocks
+	==3538==   total heap usage: 1 allocs, 1 frees, 352 bytes allocated
+	==3538==	 
+	==3538== All heap blocks were freed -- no leaks are possible
+	==3538== 
+	==3538== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+	==3538== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+
+Questions:
+	
+	Stream operators work. But I tried use internet resources to understand how they work. 
+	I just copy examples on the net of ostream operators and How to use them. 
